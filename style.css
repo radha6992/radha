@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    background-color: lightcoral;
+    display: flex;
+}
+a{
+    padding: 20px;
+    /* display: flex; */
+    text-decoration: none;
+    color: white;
+    /* font-size: 20px; */
+}
+li{
+    list-style-type: none;
+    display: flex;
+}
+
+h5{
+    font-size: 40px;
+    margin-left: 100px;
+    margin-top: 250px;
+}
+p{
+    font-size: 40px;
+    margin-top: -60px;
+    margin-left: 100px;
+}
+
