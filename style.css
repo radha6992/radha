@@ -18,9 +18,6 @@ li{
     display: flex;
 }
 
-.div2{
-    display: flex;
-}
 h5{
     font-size: 40px;
     margin-left: 100px;
@@ -37,32 +34,32 @@ img{
     float: right;
     margin-top: -300px;
     margin-right: 100px;
-    border-radius: 15px 150px 15px 150px;
+    /* border-radius: 10px 120px 10px 120px; */
+    border-radius: 40px 4px 40px 4px;
 }
 
-.avtar{
-    width: 50%; 
-    position: relative;
+.about{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 130px;
+    border-bottom: 4px solid black;
+    width: fit-content;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
 }
-.avtar::after,.avtar::before{
-    content: '';
-    background-color: red;
-    position: absolute;
-    padding: 50px;
-    border-radius:50%;
-    z-index: 3;
-    opacity: 0.5;
 
+.about_us{
+    background-image: linear-gradient(#8ab9c9,#93e2c1) !important;
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: .7s;
 }
-.avtar::after{
-    top: 80%;
-    left: 100px;
-    background-image: linear-gradient(to left, purple, skyblue);
+.about_us:hover{
+    background-size: 100% 100% !important;
+    color: #fff;
 }
-.avtar::before{
-    background-image: linear-gradient(to right, purple, skyblue);
-    left: 75%;
-    top:20px
-}
+
 
 
