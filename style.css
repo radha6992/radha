@@ -41,9 +41,9 @@ div.main{
     /* margin-top: 16px; */
 }
 
-img{
-    height: 250px;
-    width: 250px;
+.avtar{
+    height: auto;
+    width: auto;
     float: right;
     margin-bottom: 200px;
 }
