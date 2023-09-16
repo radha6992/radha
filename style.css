@@ -17,3 +17,34 @@ li{
     list-style-type: none;
     display: flex;
 }
+
+div.main{
+    background: transparent;
+    width: 100%;
+    height: 80vh;
+    /* margin-top: -20px; */
+    display: flex;
+}
+.detls{
+    width: 50%;
+    display: grid;
+    place-content: center;
+}
+.detls .name{
+    font-size: 2rem;
+    font-weight: 450;
+    /* line-height: 2px; */
+}
+.detls .skill{
+    font-size: 2rem;
+    font-weight: 300;
+    /* margin-top: 16px; */
+}
+
+img{
+    height: 250px;
+    width: 250px;
+    float: right;
+    margin-bottom: 200px;
+}
+
