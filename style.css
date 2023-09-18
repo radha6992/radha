@@ -133,7 +133,7 @@ input:focus,textarea:focus{
     outline: none;
     color:#F1AC88;
 }
-.cont-contant{
+.form{
     width: 100%;
     height: auto;
     display: flex;
