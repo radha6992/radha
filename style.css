@@ -160,33 +160,6 @@ form .submit{
 }
 
 .vision{
-    width: 100%;
-    height: auto;
-    padding: 20px;
     display: flex;
-}
-.card{
-    width: 25%;
-    border-radius: 8px;
-    margin: 10px;
-    background: transparent;
-    transform: scale(1);
-    transition: .5s;
-    box-shadow: 0 20px 30px rgba(109, 109, 109, 0.359);
-}
-.card:hover{
-    transform: scale(1.1);
-    margin: 10px;
-    transition: .5s;
-}
-.card span{
-    text-align: center;
-    font-size: 1.3rem;
-    font-weight: 400;
-    margin: 20px 10px;
-}
-.card img{
-    width: 100%;
-    border-radius: 8px 8px 0 0;
-    aspect-ratio: 3/2;
+    
 }
