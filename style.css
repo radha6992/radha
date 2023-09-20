@@ -161,5 +161,6 @@ form .submit{
 
 .vision{
     display: flex;
-    
+    width: 100%;
+    height: auto;
 }
