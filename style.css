@@ -40,13 +40,13 @@ div.main{
     font-weight: 300;
 }
 
-img{
+.radha{
 
     height: 370px;
     width: 50%;
     margin-top: 60px;
     /* float: right; */
-    margin-left: 250px;
+    margin-left: 200px;
     border-radius: 50px 50px 50px 50px;
     /* place-content: center; */
 }
@@ -161,6 +161,34 @@ form .submit{
 
 .vision{
     display: flex;
-    width: 100%;
+    width: 96.7vw;
     height: auto;
+    padding: 7px;
 }
+.card{
+    width: 25%;
+    border-radius: 8px;
+    margin: 10px;
+    background: transparent;
+    transform: scale(1);
+    transition: .5s;
+    box-shadow: 0 20px 30px #c2b6b65c;
+}
+.card:hover{
+    transform: scale(1.1);
+    margin: 10px;
+    transition: .5s;
+
+}
+.card span{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: 20px 10px;
+}
+.card img{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    aspect-ratio: 3/2;
+}
+
