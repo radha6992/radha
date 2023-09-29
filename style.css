@@ -46,7 +46,7 @@ div.main{
     width: 50%;
     margin-top: 60px;
     /* float: right; */
-    margin-left: 200px;
+    margin-left: 260px;
     border-radius: 50px 50px 50px 50px;
     /* place-content: center; */
 }
@@ -139,7 +139,6 @@ input:focus,textarea:focus{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 form{
     padding: 20px;

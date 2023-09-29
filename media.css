@@ -1,0 +1,82 @@
+@media (min-width:320px) and (max-width:420px){
+    /* body{
+        background-color: red;
+    } */
+    nav{
+        display: none;
+    }
+    div.main{
+        display: block;
+
+    }
+    div.name{
+        text-align: center;
+        width: 100%;
+        height: 10vh;
+    }
+    .detls{
+        width: 50%;
+        margin-left: 100px;
+        display: grid;
+        /* place-content: center; */
+        text-align: center;
+    }
+    .detls .name{
+        font-size: 30px;
+        font-weight: 350;
+        margin-top: 40px;
+        margin-bottom: -40px;
+    }
+    .detls .skill{
+        font-size: 35px;
+        font-weight: 200;
+    }
+    .radha{
+
+        height: 400px;
+        width: 60%;
+        margin-top: 60px;
+        /* float: right; */
+        margin-left: 100px;
+        border-radius: 50px 50px 50px 50px;
+        /* place-content: center; */
+    }
+    .abt-head span{
+       margin-top: -30px;
+    }
+    form{
+        width: 75%;
+    }
+    .vision{
+        display: block;
+        /* height: auto; */
+        /* width: 100%; */
+    }
+    .card{
+        width: 90%;
+        border-radius: 8px;
+        margin: 10px;
+        background: transparent;
+        transform: scale(1);
+        transition: .5s;
+        box-shadow: 0 20px 30px #c2b6b65c;
+    }
+    .card:hover{
+        transform: scale(1.1);
+        margin: 10px;
+        transition: .5s;
+    
+    }
+    .card span{
+        text-align: center;
+        font-size: 25px;
+        font-weight: 400;
+        /* border: 2px solid black; */
+        /* margin: 20px 10px; */
+    }
+    .card img{
+        width: 100%;
+        border-radius: 8px 8px 0 0;
+        aspect-ratio: 3/2;
+    }
+}
